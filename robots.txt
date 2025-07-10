@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/Abhat-93/MATH-DT/sitemap.xml
+Sitemap: https://abhat-93.github.io/MATH-DT//sitemap.xml
