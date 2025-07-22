@@ -2,16 +2,16 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://csl.cs.vt.edu/'>CSL</a>, <a href='https://create.centers.vt.edu/'>CREATe</a> ,  Virginia Tech, Blacksburg.
+subtitle: <a href='https://csl.cs.vt.edu/'>CSL</a>, <a href='https://create.centers.vt.edu/'>CREATe</a> @ Virginia Tech, Blacksburg.
 
 profile:
   align: right
   image: jet_engine_dt.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <!-- <p>555 your office number</p> -->
+    <!-- <p>123 your address street</p> -->
+    <!-- <p>Your City, State 12345</p> -->
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
