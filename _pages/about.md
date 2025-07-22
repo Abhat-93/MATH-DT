@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://csl.cs.vt.edu/'>CSL</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
