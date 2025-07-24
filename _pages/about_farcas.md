@@ -1,0 +1,1 @@
+Dr. Farcas is an Assistant Professor in the Department of Mathematics. More details can be found at this [link](https://math.vt.edu/people/faculty/farcas-ionut-gabriel.html). 

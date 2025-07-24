@@ -1,0 +1,1 @@
+Dr. Lowe is a professor in the Kevin T. Crofton Department of Aerospace and Ocean Engineering . More details can be found in his personal [website](https://www.aoe.vt.edu/people/faculty/lowe/personal-page.html)

@@ -1,0 +1,1 @@
+Dr. Roy is a professor in the Kevin T. Crofton Department of Aerospace and Ocean Engineering at Virginia Tech. More details can be found at his perosnal [website](https://www.aoe.vt.edu/people/faculty/roy/personal-page.html). 
