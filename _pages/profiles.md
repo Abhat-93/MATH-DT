@@ -55,4 +55,13 @@ profiles:
       <p> Virginia Tech </p>
       <p> 727 Prices Fork Road </p>
       <p> Blacksburg, VA 24061-1026 </p>
+  - align: left
+    image: monica_pic.jpeg
+    content: about_monica.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p> Graduate Research Assistant </p>
+      <p> 626, McBryde Hall </p>
+      <p> 225 Stranger St. </p>
+      <p> Blacksburg ,VA 24061 </p>
 ---
