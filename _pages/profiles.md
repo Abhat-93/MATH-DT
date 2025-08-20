@@ -56,7 +56,7 @@ profiles:
       <p> 727 Prices Fork Road </p>
       <p> Blacksburg, VA 24061-1026 </p>
   - align: left
-    image: monica_pic.jpeg
+    image: monica_pic.jpg
     content: about_monica.md
     image_circular: false # crops the image to make it circular
     more_info: >
