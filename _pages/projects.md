@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+description: There are several research going on. Feel free to explore more below.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Data Assimilation, Reduced Order Modeling, Computational Fluid Dynamics, Experimental Design]
 horizontal: false
 ---
 
