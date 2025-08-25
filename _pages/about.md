@@ -6,7 +6,7 @@ subtitle: <a href='https://csl.cs.vt.edu/'>CSL</a>, <a href='https://create.cent
 
 profile:
   align: right
-  image: jet_engine_dt.png
+  image: overview.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <!-- <p>555 your office number</p> -->
