@@ -9,9 +9,14 @@ profile:
   image: overview.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <!-- <p>555 your office number</p> -->
+    <p>Generic Flow of Information in Digital Twin for a Jet Engine</p>
     <!-- <p>123 your address street</p> -->
     <!-- <p>Your City, State 12345</p> -->
+
+# profile:
+#   align: right
+#   image: jet_engine_dt.png
+#   image_circular: false # crops the image to make it circular
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -23,7 +28,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -46,3 +51,19 @@ Some recent publications identify some current research gaps that affect the dev
   
 The proposed research project seeks to address current mathematical and computational gaps
 and significantly advances the development of DTs for jet engines.
+
+The research [team](/MATH-DT/people/) at VT brings together expertise from the field of Mathematics, Aerospace, Mechanical and Computer Science to answer the several open questions. 
+
+As an initial setup, we list our progress below and we would request our readers to refer to our [research](/MATH-DT/Research) page for further details and will be continously updated:
+* Data Assimilation---
+  * Multi fidelity particle filters and smoothers
+  * Application in Quasi-Geostrophic problems
+* Reduced Order Modeling---
+  * Development of non-instrusive ROMs for KdV and QG
+* Computational Fluid Dynamics---
+  * Development of mesh for the 2d axisymmetric model of the jet rabbit engine
+  * A full 3D model will be developed after the initial experiments are done
+* Experimental setup---
+  * Setup of the experimental rig for running the actual engine and also facilitate particle injection
+  * The particle is (still to be?) decided (what?)
+

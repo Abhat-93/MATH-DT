@@ -14,7 +14,8 @@ profiles:
     content: about_sandu.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p> 3060 Torgesen Hall, Virginia Tech </p>
+      <p> Role: Head PI </p>
+      <p> Mail: 3060 Torgesen Hall, Virginia Tech </p>
       <p> Blacksburg, VA 24061 </p>
       <p> Phone: (540) 231-2193 </p>
       <p> email: sandu@cs.vt.edu </p>
@@ -23,6 +24,7 @@ profiles:
     content: about_roy.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Role: Co-PI </p>
       <p> Aerospace & Ocean Engineering (MC0119) </p>
       <p> McBryde Hall, RM 614, Virginia Tech </p>
       <p> 225 Stanger St. </p>
@@ -33,6 +35,7 @@ profiles:
     content: about_lowe.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Role: Co-PI </p>
       <p> Aerospace & Ocean Engineering (MC0119) </p>
       <p> McBryde Hall, RM 660A, Virginia Tech </p>
       <p> Blacksburg, VA 24061 </p>
@@ -41,6 +44,7 @@ profiles:
     content: about_rui.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Role: Co-PI </p>
       <p> John R. Jones III Faculty Fellow </p>
       <p> Department of Mechanical Engineering </p>
       <p> Goodwin Hall, 413B </p>
@@ -51,6 +55,7 @@ profiles:
     content: about_farcas.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Role: Co-PI </p>
       <p> 463 Data & Decision Sciences </p>
       <p> Virginia Tech </p>
       <p> 727 Prices Fork Road </p>
@@ -60,6 +65,7 @@ profiles:
     content: about_monica.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Research Assistant </p>
       <p> Graduate Research Assistant </p>
       <p> 626, McBryde Hall </p>
       <p> 225 Stranger St. </p>
