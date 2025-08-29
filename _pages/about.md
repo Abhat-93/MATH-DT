@@ -54,10 +54,19 @@ and significantly advances the development of DTs for jet engines.
 
 The research [team](/MATH-DT/people/) at VT brings together expertise from the field of Mathematics, Aerospace, Mechanical and Computer Science to answer the several open questions. 
 
+The big picture idea is illustrated in the figure above and listed below:
+* Create a full order model of the fluid flow in the jet engine using Unsteady Reynold's Average Naviers Stoke (**URANS**) model
+* Create a data driven (non-instrusive) Reduced Order Model (**ROM**) for the full order model
+* Setup experiments to run the actual engine (we refer this as the **Pysical Twin**) and start measurements
+* Inject particles and measure the erosion and accretion data
+* Calibrate the FOM and the ROM with the noisy measurements using Data Assimilation (**DA**) and Inversion
+* Use the calibrated model to do a future forecast/predictions of Quantities of Interests (**QoIs**)
+
 As an initial setup, we list our progress below and we would request our readers to refer to our [research](/MATH-DT/Research) page for further details and will be continously updated:
 * Data Assimilation---
   * Multi fidelity particle filters and smoothers
   * Application in Quasi-Geostrophic problems
+  * This will be applied to the actual full order and reduced order model when it is ready
 * Reduced Order Modeling---
   * Development of non-instrusive ROMs for KdV and QG
 * Computational Fluid Dynamics---
@@ -66,4 +75,17 @@ As an initial setup, we list our progress below and we would request our readers
 * Experimental setup---
   * Setup of the experimental rig for running the actual engine and also facilitate particle injection
   * The particle is (still to be?) decided (what?)
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/jet_engine_dt.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/jet_engine_DT_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Schematic diagram of the Digital Twin
+</div>
 
