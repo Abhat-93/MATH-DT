@@ -14,6 +14,7 @@ profiles:
     content: about_sandu.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Prof Adrian Sandu </p>
       <p> Role: Head PI </p>
       <p> Mail: 3060 Torgesen Hall, Virginia Tech </p>
       <p> Blacksburg, VA 24061 </p>
@@ -24,6 +25,7 @@ profiles:
     content: about_roy.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Prof Christopher Roy </p>
       <p> Role: Co-PI </p>
       <p> Aerospace & Ocean Engineering (MC0119) </p>
       <p> McBryde Hall, RM 614, Virginia Tech </p>
@@ -35,6 +37,7 @@ profiles:
     content: about_lowe.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Prof Todd Lowe </p>
       <p> Role: Co-PI </p>
       <p> Aerospace & Ocean Engineering (MC0119) </p>
       <p> McBryde Hall, RM 660A, Virginia Tech </p>
@@ -44,6 +47,7 @@ profiles:
     content: about_rui.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Prof Rui Qiao </p>
       <p> Role: Co-PI </p>
       <p> John R. Jones III Faculty Fellow </p>
       <p> Department of Mechanical Engineering </p>
@@ -55,6 +59,7 @@ profiles:
     content: about_farcas.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p> Prof Ionut-Gabriel Farcas </p>
       <p> Role: Co-PI </p>
       <p> 463 Data & Decision Sciences </p>
       <p> Virginia Tech </p>
@@ -65,9 +70,19 @@ profiles:
     content: about_monica.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p> Research Assistant </p>
+      <p> Monica Shanmugan </p>
       <p> Graduate Research Assistant </p>
       <p> 626, McBryde Hall </p>
       <p> 225 Stranger St. </p>
       <p> Blacksburg ,VA 24061 </p>
+  - align: right
+    image: abhinab_pic.jpg
+    content: about_abhinab.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p> Abhinab Bhattacharjee </p>
+      <p> Graduate Research Assistant </p>
+      <p> 3060, Torgersen Hall </p>
+      <p> 620 Drillfield Dr </p>
+      <p> Blacksburg ,VA 24060 </p>
 ---

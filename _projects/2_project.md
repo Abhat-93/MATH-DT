@@ -1,81 +1,55 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Data Driven Reduced Order Modeling
+description: 
+img: 
 importance: 2
 category: Reduced Order Modeling
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Reduced Order Modeling (ROM) plays a pivotal role in this study. 
+Often high fidelity simulations are expensive to run, and with multiple initializations (as often needed in data assimilation), computation often becomes intractatble in high dimensional setting. 
+We aim to create cheap data driven ROMs to facilitate amyriad of data assimilation problem that will be incurred in this study.
+In lieu of that, here are some background/initial study that has been performed till now:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Scalable Physics-based data-driven reduced-order models
+We are developing scalable, physics-based, data-driven ROMs based on Operator Inference. Our approach is designed for large-scale problems with massive datasets. To efficiently handle extremely large state dimensions, we use distributed-memory computing to process data in parallel. Recently, we also incorporated streaming capabilities to dynamically integrate new training data.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/fig1_v3.png" title="OpInf" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    This shows the strong scaling of our distributed Operator Inference algorithm (without streaming), which we tested using up to 2048 compute cores on the Frontera Supercomputer at the Texas Advanced Computing Center. The application for this test was a real-world problem focused on combustion dynamics in rotating detonation rocket engines.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<br>
 
-{% raw %}
+## Sparse grid-accelerated parametric reduced-order models
+We are also developing sparse grid-accelerated parametric reduced models that embed the parametric variation of a large number of input parameters. 
+The efficient construction of these models is crucial for creating digital twins in real-world applications.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+Our method uses sparse grids with Leja points to generate a low-cardinality set of training parameter instances.
+We then use sparse grid interpolation to make predictions for new parameter instances outside of the training set.
+This approach helps overcome the curse of dimensionality that affects traditional full tensor-grids.
+<div class="row">
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fig2.png" title="sparse_grid_1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fig3.png" title="sparse_grid_2" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Figure illustrates the significant reduction in the number of required training points for a sparse grid compared to a full tensor-grid. We validated our approach by applying a sparse-grid-accelerated parametric reduced model based on optimized dynamic mode decomposition to a plasma micro-instability scenario. This problem has six input parameters and shares many characteristics with jet engine dynamics. Thanks to our sparse-grid framework, we only needed 28 high-fidelity simulations to train the reduced model.
+</div>
 
-{% endraw %}
+<br>
+
+## Structure-preserving reduced models
+We are developing structure-preserving reduced models (e.g., those with a Hamiltonian structure) using Operator Inference for multi-fidelity filtering problems.
+The use of multi-fidelity methods to accelerate data assimilation is essential for creating digital twins in real-world problems where the forward models are computationally expensive.
+
+
