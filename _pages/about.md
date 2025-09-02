@@ -55,11 +55,15 @@ and significantly advances the development of DTs for jet engines.
 The research [team](/MATH-DT/people/) at VT brings together expertise from the field of Mathematics, Aerospace, Mechanical engineering and Computer Science to answer the several open questions. 
 
 The big picture idea is illustrated in the figure above and listed below:
-* Create a Full Order Model (FOM) of the fluid flow in the jet engine using Unsteady Reynolds-Averaged Navier-Stokes (**URANS**) model
-* Create a data driven (non-instrusive) Reduced Order Model (**ROM**) for the full order model
+* Develop high-fidelity multi-physics CFD and combustion jet engine models, with quantified uncertainties
+* The high-fidelity Full Order Model (FOM) of the fluid flow in the jet engine will be done using Unsteady Reynolds-Averaged Navier-Stokes (**URANS**) model
+* Develop novel scalable Reduced-Order Models (**ROMs**) for fast, low fidelity simulations of jet engines
+* Develop particle-surface interaction models to quantify the effects of erosion and deposition on engine performance. 
+* Develop an array of novel hierarchical Data Assimilation (DA) algorithms using variational approaches, ensemble Kalman filters, and transport map particle filters, all in the context of a hierarchy of models
 * Setup experiments to run the actual engine (we refer to this as the **Pysical Twin**) and start getting measurements from sensor that we place inside the engine
-* Identify areas of interest that can be observed (i.e. placement of sensors) for maximum information retrival
-* Inject particles and measure the erosion and accretion data
+* Use innovative experimental systems to observe the location and motion of flow features, for
+the JetRabbit engine using measurements made at the Virginia Tech Advanced Propulsion
+and Power Laboratory.
 * Calibrate the FOM and the ROM with the noisy measurements using Data Assimilation (**DA**) and Inversion
 * Use the calibrated model to do a future forecast/predictions of Quantities of Interests (**QoIs**)
 
