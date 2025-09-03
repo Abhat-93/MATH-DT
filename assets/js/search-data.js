@@ -49,14 +49,14 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/MATH-DT/projects/2_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-cfd-simulations",
+          title: 'CFD Simulations',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/MATH-DT/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-experiments",
+          title: 'Experiments',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/MATH-DT/projects/8_project/";
             },},{
