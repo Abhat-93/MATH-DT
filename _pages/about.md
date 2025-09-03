@@ -54,9 +54,9 @@ and significantly advances the development of DTs for jet engines.
 
 The research [team](/MATH-DT/people/) at VT brings together expertise from the field of Mathematics, Aerospace, Mechanical engineering and Computer Science to answer the several open questions. 
 
-The big picture idea is illustrated in the figure above and listed below:
+The overall research goal of this project is listed below:
 * Develop high-fidelity multi-physics CFD and combustion jet engine models, with quantified uncertainties
-* The high-fidelity Full Order Model (FOM) of the fluid flow in the jet engine will be done using Unsteady Reynolds-Averaged Navier-Stokes (**URANS**) model
+* The high-fidelity Full Order Model (FOM) of the fluid flow in the jet engine will be done using Unsteady Reynolds-Averaged Navier-Stokes (**URANS**) equation
 * Develop novel scalable Reduced-Order Models (**ROMs**) for fast, low fidelity simulations of jet engines
 * Develop particle-surface interaction models to quantify the effects of erosion and deposition on engine performance. 
 * Develop an array of novel hierarchical Data Assimilation (DA) algorithms using variational approaches, ensemble Kalman filters, and transport map particle filters, all in the context of a hierarchy of models
@@ -65,7 +65,7 @@ The big picture idea is illustrated in the figure above and listed below:
 the JetRabbit engine using measurements made at the Virginia Tech Advanced Propulsion
 and Power Laboratory.
 * Calibrate the FOM and the ROM with the noisy measurements using Data Assimilation (**DA**) and Inversion
-* Use the calibrated model to do a future forecast/predictions of Quantities of Interests (**QoIs**)
+* Use the calibrated digital model to do a future forecast/predictions of Quantities of Interests (**QoIs**)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -78,19 +78,20 @@ and Power Laboratory.
 
 <br>
 
-As an initial setup, we list our progress below as of now and we would request our readers to refer to our [research](/MATH-DT/Research) page for further details and will be continously updated. We also list some future research direction that we seek to pursue:
+We list our progress below and we would request our readers to refer to our [research](/MATH-DT/Research) page for further details which will be continously updated. We also list some future research direction that we seek to pursue:
 * Data Assimilation---
   * Multi fidelity particle filters and smoothers
   * Application in 2 test PDEs as an intial benchmarking setup
   * This will be applied to the FOM and ROM of the jet engine simulation in the future
 * Reduced Order Modeling---
   * Development of non-instrusive data driven ROMs for KdV and QG
+  * This will serve as a benchmark for the development of ROMs for the jet engine
 * Computational Fluid Dynamics---
   * Development of mesh for the 2d axisymmetric model of the jet rabbit engine
-  * A full 3D model will be developed after the initial experiments are done
+  * A full 3D model will be developed after the initial numerical experiments are done
 * Experimental setup---
   * Setup of the experimental rig for running the actual engine and also facilitate particle injection
-  * The particle that needs to be injected is still under review
+  * Sealing glass particles has been selected to carry out deposition experiments
 
 
 
