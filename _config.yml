@@ -144,11 +144,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
     output: true
 
@@ -203,6 +203,8 @@ exclude:
   - _projects/4_project.md
   - _projects/9_project.md
   - _pages/publications.md
+  - _books/the_godfather.md
+  - _news/
 keep_files:
   - CNAME
   - .nojekyll
