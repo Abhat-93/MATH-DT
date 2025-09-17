@@ -2,7 +2,7 @@
 layout: page
 title: CFD Simulations
 description: 
-img: assets/img/4.jpg
+img: assets/img/cfd_front_pic.png
 importance: 1
 category: Computational Fluid Dynamics
 related_publications: false
